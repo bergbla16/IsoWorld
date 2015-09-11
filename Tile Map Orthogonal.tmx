@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../LPC/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="dirt" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../LPC/tiles/dirt.png" width="96" height="192"/>
+  <terraintypes>
+   <terrain name="Dirt" tile="-1"/>
+  </terraintypes>
+  <tile id="1" terrain="0,0,0,"/>
+  <tile id="2" terrain="0,0,,0"/>
+  <tile id="4" terrain="0,,0,0"/>
+  <tile id="5" terrain=",0,0,0"/>
+  <tile id="6" terrain=",,,0"/>
+  <tile id="7" terrain=",,0,0"/>
+  <tile id="8" terrain=",,0,"/>
+  <tile id="9" terrain=",0,,0"/>
+  <tile id="10" terrain="0,0,0,0"/>
+  <tile id="11" terrain="0,,0,"/>
+  <tile id="12" terrain=",0,,"/>
+  <tile id="13" terrain="0,0,,"/>
+  <tile id="14" terrain="0,,,"/>
+ </tileset>
+ <layer name="Grass" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6H7Z/99C51DwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/Af00rcA=
+  </data>
+ </layer>
+ <layer name="Path" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt10sOwiAUQFEW4cBfre5/k+KAhJC22gRBwznJm5N3g5UQAAAAAAAAAAAAAAAAAAAAAAAA+BenOOc4l94HGUTa99oc40xxbr0OOIC8Qdr3u9GjvtRhqcEhzn1jHi0POoBXi7JD3sC+2ylbpA4atLfUQod+rkGLX5HfDS3a2Ho/5L9T/q9+z973g7tRV3kH9r4ftKgr/yZ7P/SXepR3QIM+5mD/AAAAAAAAAAAAAAAAAADAZ54Djg8X
+  </data>
+ </layer>
+</map>
