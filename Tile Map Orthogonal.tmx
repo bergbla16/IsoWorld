@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../LPC/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="dirt" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../LPC/tiles/dirt.png" width="96" height="192"/>
+  <terraintypes>
+   <terrain name="Dirt" tile="-1"/>
+  </terraintypes>
+  <tile id="1" terrain="0,0,0,"/>
+  <tile id="2" terrain="0,0,,0"/>
+  <tile id="4" terrain="0,,0,0"/>
+  <tile id="5" terrain=",0,0,0"/>
+  <tile id="6" terrain=",,,0"/>
+  <tile id="7" terrain=",,0,0"/>
+  <tile id="8" terrain=",,0,"/>
+  <tile id="9" terrain=",0,,0"/>
+  <tile id="10" terrain="0,0,0,0"/>
+  <tile id="11" terrain="0,,0,"/>
+  <tile id="12" terrain=",0,,"/>
+  <tile id="13" terrain="0,0,,"/>
+  <tile id="14" terrain="0,,,"/>
+ </tileset>
+ <tileset firstgid="37" name="trunk" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../LPC/tiles/trunk.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="55" name="treetop" tilewidth="32" tileheight="32" tilecount="42">
+  <image source="../../LPC/tiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="97" name="rock" tilewidth="32" tileheight="32" tilecount="2">
+  <image source="../../LPC/tiles/rock.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="99" name="barrel" tilewidth="32" tileheight="32" tilecount="8">
+  <image source="../../LPC/tiles/barrel.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="107" name="castle_lightsources" tilewidth="32" tileheight="32" tilecount="20">
+  <image source="../../LPC/tiles/castle_lightsources.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="127" name="pumpking" tilewidth="32" tileheight="32" tilecount="20">
+  <image source="../../LPC/sprites/monsters/pumpking.png" width="138" height="184"/>
+  <terraintypes>
+   <terrain name="Pumpking" tile="-1"/>
+  </terraintypes>
+  <tile id="13" terrain=",0,,0"/>
+  <tile id="14" terrain="0,,0,0"/>
+  <tile id="17" terrain=",0,,"/>
+  <tile id="18" terrain="0,,,"/>
+ </tileset>
+ <tileset firstgid="147" name="lava" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../LPC/tiles/lava.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="165" name="holek" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../../LPC/tiles/holek.png" width="96" height="192"/>
+  <tile id="10">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.25" y="-0.25" width="32.25" height="32"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Grass" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt28ty6jAMANDs2RD+/2NvF/VUVeXY6eM6DGdxpoUkDEi2bONw27btBgAAAAAAAAAAAAAAAAAA/In7m/397+Pd6vf0yu7p8aN4Lj/O5PH3VHHcw/Px/+rc+/bRx6rXb31v9ed8FlWsYh9pdSzmJZ7X8lDlI+ZKTub06kyL457Ojbnaw7mj11bT5vTqTOsXvWPxeHWe+H/PUdse5eMop+rTXOxbux7Nb8+072o+pm98taf/H9vnMeBoXtRr31WsY+7ymMNHjHI+qlj15rtVPkZjSrV24XOcW9vtzYWq+Wg1tzVn/b443uY5araH83prDePBz8R6Xq0jZq+9nbyWfkxzfGdjGsf4PK/l51r7Vm+uQy6uRf2/FmMAXJuaeS3mFNciH9dhXblWtc+7+j29qrgPIh//V9zjin0i1qYz351xXvz+vrqvsapVxo6/sSd5n6Uat91n8rviPRAxD3l/JfaZnI/Vn+HZVXu4cd8wHs/n5n1ftWps9h6fGPtYj2J/ydfl/Rb5mM9Hi1uOd4xjHp+rvfVcp+y3j2M/ej7Xpqpdx7bf8ljlT58Y5ySPs9V90r1czdSfXLNWf+ZnEGtPFf/8W48qj6OxR984L67h4vy1dw9jvraX66PjjOV13UydOeoDcrFG7zdVq9/Xq8prD/1iPffZAQAAAAAAAADAtv0DfGC1aQ==
+  </data>
+ </layer>
+ <layer name="Path" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt10sOwiAUQFEW4cBfre5/k+KAhJC22gRBwznJm5N3g5UQAAAAAAAAAAAAAAAAAAAAAAAA+BenOOc4l94HGUTa99oc40xxbr0OOIC8Qdr3u9GjvtRhqcEhzn1jHi0POoBXi7JD3sC+2ylbpA4atLfUQod+rkGLX5HfDS3a2Ho/5L9T/q9+z973g7tRV3kH9r4ftKgr/yZ7P/SXepR3QIM+5mD/AAAAAAAAAAAAAAAAAADAZ54Djg8X
+  </data>
+ </layer>
+ <layer name="Misc" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2bEOwiAUBVD+1cFNBx30720HlJCmRUXA9JyEoYkawgvcVwwBAAAAAAAAAAAAAAAAAAAA/sNpGufek+DpMo1r70nszNoeuE3j3nAu2AOjsQfaqZ3Hh4q/tUelZ1Fet/icr/9x4btqVK70LMrrFp+X1j9X8hnek9dNpsCLDBiLDPgdd05jKe1xS84o59j31nqjdH0/7WXVqJ4aOSFrAKCvuTfyfjKOuTfaej+J9VK3NrbubmO9/I87hlgvd+7AqNL8luX9pfkty/tL81uWAwAAAAAAAAAAAAAAhPAAse4k4g==
+  </data>
+ </layer>
+ <layer name="Tree Base" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2UkKwzAMBdBepvM83v9o1TYQTEqF7ZD34C8dArElBa9WAAAAAAAAAAAAAAAAAAAswS6yjxwarWfoErlGbo3WM/SKvCOfRuuZbh3ZRLatX2TGMuv5MXKKnBOetVSlev7rfr9HHpFnzqstUqmeZ+13dSxH1n5Xx/qijuUp9Xt1qL5Sv1eH6iv1e3UIaEFv7stYb/aN2hnrzdnzk+/7n+z5yXxcX+kMmI/rGzsD7mjbGTsD7mj74o6WpTCz9sXMWs+UvW9mrcfe74u93z//cn3xL9cX/3IAAAAAAAAAAAAAAADM0RcwgRlj
+  </data>
+ </layer>
+ <layer name="Tree Top" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2r1OwzAQAOC+FTAAA7AVBmAABiB5/4fAlbCUBtf9u8ao+T7plA5JFCXxXXzuYgEAAAAAAAAAAAAAAADAMZYpHlM8NTqedc8pXlK8NjqedW8p3lN8NDqedZ8pvlJ8Nzr+3EXm84sUlymuAs41V5H5/DrFTYrbgHPNVS2f7/u+36W4T/EQc2mzVMvnUe+7PBYj6n2Xx+JE1Ht5LE6t3u+ah7roi5qxWr2Xh6ZXq/eb8lB/4msC5q1Um2vfVmr0aZVqc3RvfPUMV7XF2sd2pdoc1RvPY8nax3FK31bb8tTyd588BvrB1trH9GpjwNrHYQ6ZP+RxUxoD+on76X+jG22zbrDfNqUxYB6/v360jaSfuLvI+29OMr1xLRjmOs9jGvl+r4xrQbf4+yyGv/UWD7fLd5BaMB3fQf9L6d33f9s2NuV/Pac2xnPCTM+pnfxMhvScAAAAAAAAAAAAAAAAAM7LDyVgQSw=
+  </data>
+ </layer>
+ <layer name="Collisions" width="100" height="100" opacity="0.01">
+  <data encoding="base64" compression="zlib">
+   eJzt2DkOwyAQQFHufxmumCJNQiBiE4zk9xqnwCnmG3lJCQAAAAAAAAAAAAAAAACAp8iXz+ebHjDHtb9u5wz1WPdvhuYby64eusaRkx4RaHBXOf9aD43O6Zm1HjyB6zyO2RYajumd1+hcdZjT8zzknn1XLo49a1fXUJcbv1trd+0v3sq9MLI3av8zcy77eS+PwXf7OHzDPas165x+W+hylnnHosc5Zh3D57uGJnFoEZ9GsegBAAAAAAAAAAAAAAAArHgBUzQscA==
+  </data>
+ </layer>
+</map>
